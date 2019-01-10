@@ -1,0 +1,915 @@
+{
+  "questions":
+          [
+            {
+              "id": "01",
+              "category": "Introduction to Chemistry",
+              "difficulty": "basic",
+              "question": "What is Matter?",
+              "possibleAnswers": [
+                "Anything that has mass and volume",
+                "Anything that emits visible light",
+                "Anything that has volume"
+              ],
+              "correctAnswer": "Anything that has mass and volume"
+            },
+
+            {
+              "id": "02",
+              "category": "Introduction to Chemistry",
+              "difficulty": "basic",
+              "question": "Which of these branches of Chemistry deals with carbon-based compounds?",
+              "possibleAnswers": [
+                "Inorganic Chemistry",
+                "Industrial Chemistry",
+                "Organic Chemistry"
+              ],
+              "correctAnswer": "Organic Chemistry"
+            },
+
+            {
+              "id": "03",
+              "category": "Introduction to Chemistry",
+              "difficulty": "intermediate",
+              "question": "What is the difference between pure research and applied research?",
+              "possibleAnswers": [
+                "Pure research is done to discover new elements, while applied research is done to synthesize new compounds",
+                "Pure research is done for the sake of knowledge, while applied research is done to solve a specific problem",
+                "Pure research involves only qualitative observations, while applied research uses a lot of quantitative observations"
+              ],
+              "correctAnswer": "Pure research is done for the sake of knowledge, while applied research is done to solve a specific problem"
+            },
+
+            {
+              "id": "04",
+              "category": "Introduction to Chemistry",
+              "difficulty": "intermediate",
+              "question": "Why is it necessary to have controlling variables?",
+              "possibleAnswers": [
+                "To ensure that effects on the dependent variable are caused exclusively by the independent variable",
+                "To ensure that the experiment can be replicated",
+                "To ensure the safety of those performing the lab"
+              ],
+              "correctAnswer": "To ensure that effects on the dependent variable are caused exclusively by the independent variable"
+            },
+
+            {
+              "id": "05",
+              "category": "Introduction to Chemistry",
+              "difficulty": "advanced",
+              "question": "How is mass different from weight?",
+              "possibleAnswers": [
+                "Mass is the amount of matter in an object, while weight is the effect of gravity on an object",
+                "Mass is the effect of gravity on an object, while weight is the amount of matter in an object",
+                "They are the same thing"
+              ],
+              "correctAnswer": "Mass is the amount of matter in an object, while weight is the effect of gravity on an object"
+            },
+
+            {
+              "id": "06",
+              "category": "Lab Safety",
+              "difficulty": "basic",
+              "question": "What safety tool should you use when working with chemicals that give off harmful fumes?",
+              "possibleAnswers": [
+                "fire extinguisher",
+                "fume hood",
+                "safety goggles"
+              ],
+              "correctAnswer": "fume hood"
+            },
+
+            {
+              "id": "07",
+              "category": "Lab Safety",
+              "difficulty": "basic",
+              "question": "What safety device should be worn at all times while working in the lab?",
+              "possibleAnswers": [
+                "safety goggles",
+                "gloves",
+                "apron"
+              ],
+              "correctAnswer": "safety goggles"
+            },
+
+            {
+              "id": "08",
+              "category": "Lab Safety",
+              "difficulty": "intermediate",
+              "question": "What should you do if a fire drill occurs during a lab",
+              "possibleAnswers": [
+                "turn off gas valves, electrical equipment, etc",
+                "close containers",
+                "all of these"
+              ],
+              "correctAnswer": "all of these"
+            },
+
+            {
+              "id": "09",
+              "category": "Lab Safety",
+              "difficulty": "intermediate",
+              "question": "What could happen if hot glassware is submerged in cold water?",
+              "possibleAnswers": [
+                "it could melt",
+                "it could shatter",
+                "nothing"
+              ],
+              "correctAnswer": "it could shatter"
+            },
+
+            {
+              "id": "10",
+              "category": "Lab Safety",
+              "difficulty": "advanced",
+              "question": "Why is tying up loose hair necessary?",
+              "possibleAnswers": [
+                "loose hair could catch on fire",
+                "loose hair could get caught on laboratory equipment",
+                "all of these"
+              ],
+              "correctAnswer": "all of these"
+            },
+
+            {
+              "id": "11",
+              "category": "The Structure of the Atom",
+              "difficulty": "basic",
+              "question": "Which subatomic particle is not found in the nucleus?",
+              "possibleAnswers": [
+                "electron",
+                "neutron",
+                "proton"
+              ],
+              "correctAnswer": "electron"
+            },
+
+            {
+              "id": "12",
+              "category": "The Structure of the Atom",
+              "difficulty": "basic",
+              "question": "Which subatomic particle has no charge?",
+              "possibleAnswers": [
+                "electron",
+                "neutron",
+                "proton"
+              ],
+              "correctAnswer": "neutron"
+            },
+
+            {
+              "id": "13",
+              "category": "The Structure of the Atom",
+              "difficulty": "intermediate",
+              "question": "Why do different isotopes of the same element have different atomic masses?",
+              "possibleAnswers": [
+                "Because they have different amounts of electrons",
+                "Because they have different amounts of neutrons",
+                "Because they have different amounts of protons"
+              ],
+              "correctAnswer": "Because they have different amounts of neutrons"
+            },
+
+            {
+              "id": "14",
+              "category": "The Structure of the Atom",
+              "difficulty": "intermediate",
+              "question": "How many neutrons does Potassium-41 have?",
+              "possibleAnswers": [
+                "41",
+                "22",
+                "19"
+              ],
+              "correctAnswer": "22"
+            },
+
+            {
+              "id": "15",
+              "category": "The Structure of the Atom",
+              "difficulty": "advanced",
+              "question": "Do different isotopes of the same element react differently? Why?",
+              "possibleAnswers": [
+                "Yes, because the reactivity of elements depends on the element's neutrons",
+                "No, because the reactivity of elements depends on the element's electrons",
+                "No, because the reactivity of elements depends on the element's protons"
+              ],
+              "correctAnswer": "No, because the reactivity of elements depends on the element's electrons"
+            },
+
+            {
+              "id": "16",
+              "category": "Electrons in Atoms",
+              "difficulty": "basic",
+              "question": "Is an electron a wave or a particle?",
+              "possibleAnswers": [
+                "wave",
+                "particle",
+                "both"
+              ],
+              "correctAnswer": "both"
+            },
+
+            {
+              "id": "17",
+              "category": "Electrons in Atoms",
+              "difficulty": "basic",
+              "question": "Which electron configuration principle states that a maximum of two electrons may occupy an orbital?",
+              "possibleAnswers": [
+                "Hund's Rule",
+                "Aufbau Principle",
+                "Pauli Exclusion Principle"
+              ],
+              "correctAnswer": "Pauli Exclusion Principle"
+            },
+
+            {
+              "id": "18",
+              "category": "Electrons in Atoms",
+              "difficulty": "intermediate",
+              "question": "What is the electron configuration of Silicon?",
+              "possibleAnswers": [
+                "1s\u00B22s\u00B22p\u20763s\u00B23p\u00B2",
+                "1s\u00B22s\u00B92p\u00B3",
+                "1s\u00B22s\u00B22p\u20763s\u00B23p\u00B3"
+              ],
+              "correctAnswer": "1s\u00B22s\u00B22p\u20763s\u00B23p\u00B2"
+            },
+
+            {
+              "id": "19",
+              "category": "Electrons in Atoms",
+              "difficulty": "intermediate",
+              "question": "What is the electron configuration of Lithium?",
+              "possibleAnswers": [
+                "1s\u00B22s\u00B9",
+                "1s\u00B22s\u00B2",
+                "1s\u00B92s\u00B9"
+              ],
+              "correctAnswer": "1s\u00B22s\u00B9"
+            },
+
+            {
+              "id": "20",
+              "category": "Electrons in Atoms",
+              "difficulty": "advanced",
+              "question": "Why is it impossible to observe the exact position of an electron?",
+              "possibleAnswers": [
+                "Because the act of observing the position changes the position",
+                "Because electrons are too small",
+                "Because electrons move too fast"
+              ],
+              "correctAnswer": "Because the act of observing the position changes the position"
+            },
+
+            {
+              "id": "21",
+              "category": "Periodic Table and Periodic Law",
+              "difficulty": "basic",
+              "question": "Halogens are located in what group?",
+              "possibleAnswers": [
+                "14",
+                "17",
+                "18"
+              ],
+              "correctAnswer": "17"
+            },
+
+            {
+              "id": "22",
+              "category": "Periodic Table and Periodic Law",
+              "difficulty": "basic",
+              "question": "What is the name for the ability of an electron to attract electrons",
+              "possibleAnswers": [
+                "Electronegativity",
+                "Ionization Energy",
+                "Radiation"
+              ],
+              "correctAnswer": "Electronegativity"
+            },
+
+            {
+              "id": "23",
+              "category": "Periodic Table and Periodic Law",
+              "difficulty": "intermediate",
+              "question": "As you move across a period from left to right, the atomic radii of the elements tends to",
+              "possibleAnswers": [
+                "increase",
+                "decrease",
+                "not change"
+              ],
+              "correctAnswer": "decrease"
+            },
+
+            {
+              "id": "24",
+              "category": "Periodic Table and Periodic Law",
+              "difficulty": "intermediate",
+              "question": "As you move down a group from top to bottom, the electronegativity of elements tends to",
+              "possibleAnswers": [
+                "increase",
+                "decrease",
+                "not change"
+              ],
+              "correctAnswer": "decrease"
+            },
+
+            {
+              "id": "25",
+              "category": "Periodic Table and Periodic Law",
+              "difficulty": "advanced",
+              "question": "Why does the atomic radii decrease as you move across a period from left to right?",
+              "possibleAnswers": [
+                "The extra protons create extra force that pulls electrons closer to the nucleus",
+                "The atomic radii does not decrease",
+                "Elements on the right side of the periodic table have less electrons"
+              ],
+              "correctAnswer": "The extra protons create extra force that pulls electrons closer to the nucleus"
+            },
+
+            {
+              "id": "26",
+              "category": "Ionic Bonding",
+              "difficulty": "basic",
+              "question": "What is the name for an atom that has lost or gained electrons?",
+              "possibleAnswers": [
+                "compound",
+                "beta particle",
+                "ion"
+              ],
+              "correctAnswer": "ion"
+            },
+
+            {
+              "id": "27",
+              "category": "Ionic Bonding",
+              "difficulty": "basic",
+              "question": "What is a cation?",
+              "possibleAnswers": [
+                "a positively charged ion",
+                "a negatively charged ion",
+                "an atom that has lost or gained two electrons"
+              ],
+              "correctAnswer": "a positively charged ion"
+            },
+
+            {
+              "id": "28",
+              "category": "Ionic Bonding",
+              "difficulty": "intermediate",
+              "question": "Name the following compound: Na\u2082S",
+              "possibleAnswers": [
+                "Sodium Sulfide",
+                "Sulfur Sodide",
+                "Disodium Sulfide"
+              ],
+              "correctAnswer": "Sodium Sulfide"
+            },
+
+            {
+              "id": "29",
+              "category": "Ionic Bonding",
+              "difficulty": "intermediate",
+              "question": "Name the following compound: NiBr\u2082",
+              "possibleAnswers": [
+                "Nitrogen Dibromide",
+                "Nickel(III) Bromide",
+                "Nickel(II) Bromide"
+              ],
+              "correctAnswer": "Nickel(II) Bromide"
+            },
+
+            {
+              "id": "30",
+              "category": "Ionic Bonding",
+              "difficulty": "advanced",
+              "question": "Why do ionic compounds have high melting and boiling points",
+              "possibleAnswers": [
+                "Because their crystal lattice structure requires a lot of energy to break",
+                "Ionic compounds do not have high melting and boiling points",
+                "Because ions have high electronegativites"
+              ],
+              "correctAnswer": "Because their crystal lattice structure requires a lot of energy to break"
+            },
+
+            {
+              "id": "31",
+              "category": "Covalent Bonding",
+              "difficulty": "basic",
+              "question": "What is the name for a bond where electrons are shared?",
+              "possibleAnswers": [
+                "Ionic Bond",
+                "Covalent Bond",
+                "Metallic Bond"
+              ],
+              "correctAnswer": "Covalent Bond"
+            },
+
+            {
+              "id": "32",
+              "category": "Covalent Bonding",
+              "difficulty": "basic",
+              "question": "What two types of covalent bonds must be be present in a multiple covalent bond",
+              "possibleAnswers": [
+                "pi bond and sigma bond",
+                "phi bond and pi bond",
+                "phi bond and sigma bond"
+              ],
+              "correctAnswer": "pi bond and sigma bond"
+
+            },
+
+            {
+              "id": "33",
+              "category": "Covalent Bonding",
+              "difficulty": "intermediate",
+              "question": "Name the following molecule: H\u2082CO\u2083",
+              "possibleAnswers": [
+                "hydrogen carbonate",
+                "cobaltic acid",
+                "carbonic acid"
+              ],
+              "correctAnswer": "carbonic acid"
+            },
+
+            {
+              "id": "34",
+              "category": "Covalent Bonding",
+              "difficulty": "intermediate",
+              "question": "What is the formula of Phosphorus Triflouride?",
+              "possibleAnswers": [
+                "FP",
+                "F\u2083P",
+                "FP\u2083"
+              ],
+              "correctAnswer": "F\u2083P"
+            },
+
+            {
+              "id": "35",
+              "category": "Covalent Bonding",
+              "difficulty": "advanced",
+              "question": "Why are double bonds stronger than single bonds",
+              "possibleAnswers": [
+                "They have a shorter bond-length",
+                "There are more shared electron pairs",
+                "All of these"
+              ],
+              "correctAnswer": "All of these"
+            },
+
+            {
+              "id": "36",
+              "category": "Nomenclature",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "37",
+              "category": "Nomenclature",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "38",
+              "category": "Nomenclature",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "39",
+              "category": "Nomenclature",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "40",
+              "category": "Nomenclature",
+              "difficulty": "advanced",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "41",
+              "category": "Chemical Reactions",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "42",
+              "category": "Chemical Reactions",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "43",
+              "category": "Chemical Reactions",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "44",
+              "category": "Chemical Reactions",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "45",
+              "category": "Chemical Reactions",
+              "difficulty": "advanced",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "46",
+              "category": "The Mole",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "47",
+              "category": "The Mole",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "48",
+              "category": "The Mole",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "49",
+              "category": "The Mole",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "50",
+              "category": "The Mole",
+              "difficulty": "advanced",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "51",
+              "category": "Stoichiometry",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "52",
+              "category": "Stoichiometry",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "53",
+              "category": "Stoichiometry",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "54",
+              "category": "Stoichiometry",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "55",
+              "category": "Stoichiometry",
+              "difficulty": "advanced",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "56",
+              "category": "Properties of Matter",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "57",
+              "category": "Properties of Matter",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "58",
+              "category": "Properties of Matter",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "59",
+              "category": "Properties of Matter",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "60",
+              "category": "Properties of Matter",
+              "difficulty": "advanced",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "61",
+              "category": "Solution Concentration",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "62",
+              "category": "Solution Concentration",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "63",
+              "category": "Solution Concentration",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "64",
+              "category": "Solution Concentration",
+              "difficulty": "intermediate",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "65",
+              "category": "Solution Concentration",
+              "difficulty": "advanced",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "66",
+              "category": "Gas Laws",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "67",
+              "category": "Gas Laws",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "68",
+              "category": "Gas Laws",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "69",
+              "category": "Gas Laws",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            },
+
+            {
+              "id": "70",
+              "category": "Gas Laws",
+              "difficulty": "basic",
+              "question": "?",
+              "possibleAnswers": [
+                "?",
+                "?",
+                "?"
+              ],
+              "correctAnswer": "?"
+            }
+          ]
+}

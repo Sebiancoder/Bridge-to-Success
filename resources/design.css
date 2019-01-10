@@ -1,0 +1,93 @@
+.answerTextBlue{
+-fx-font-size: 12;
+-fx-font-family: "Comic Sans MS";
+-fx-fill: #003366;
+}
+
+.answerTextRed{
+-fx-font-size: 12;
+-fx-font-family: "Comic Sans MS";
+-fx-fill: #FF0000;
+}
+
+.backButton{
+-fx-font-size: 20;
+-fx-font-family: "Comic Sans MS";
+-fx-background-color: #FFFF00;
+}
+
+.backButton:pressed{
+-fx-font-size: 20;
+-fx-font-family: "Comic Sans MS";
+-fx-background-color: #FFce00;
+}
+
+.instructionButton{
+-fx-font-size: 28;
+-fx-font-family: "Comic Sans MS";
+-fx-background-color: #FFFF00;
+}
+
+.instructionButton:pressed{
+-fx-font-size: 28;
+-fx-font-family: "Comic Sans MS";
+-fx-background-color: #FFce00;
+}
+
+.lava{
+-fx-fill: #FF4500;
+}
+
+.questionTextBlue{
+-fx-font-size: 12;
+-fx-font-family: "Comic Sans MS";
+-fx-fill: #003366;
+}
+
+.questionTextRed{
+-fx-font-size: 12;
+-fx-font-family: "Comic Sans MS";
+-fx-fill: #FF0000;
+}
+
+.startButton{
+-fx-font-size: 50;
+-fx-font-family: "Comic Sans MS";
+-fx-background-color: #FFFF00;
+}
+
+.startButton:pressed{
+-fx-font-size: 50;
+-fx-font-family: "Comic Sans MS";
+-fx-background-color: #FFce00;
+}
+
+.tileClear{
+-fx-fill: #212121;
+}
+
+#tileCapturedByBlue{
+-fx-fill: #003366;
+}
+
+#tileCapturedByRed{
+-fx-fill: #FF0000;
+}
+
+.tilePendingByBlue{
+-fx-fill: #4c7093;
+}
+
+#tileDestroyed{
+-fx-fill: #808080;
+}
+
+.tilePendingByRed{
+-fx-fill: #ff4c4c;
+}
+
+.titleText{
+-fx-font-size: 60;
+-fx-font-family: "Comic Sans MS";
+-fx-fill: #FFFF00;
+}
