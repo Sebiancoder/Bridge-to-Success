@@ -19,7 +19,7 @@ public class QuestionManager {
 
     public QuestionManager(){
 
-        questionDataAsInputStream = getClass().getResourceAsStream("/questions.json");
+        questionDataAsInputStream = getClass().getResourceAsStream("/Questions.json");
 
         try{
 

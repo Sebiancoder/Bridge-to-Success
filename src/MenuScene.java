@@ -1,6 +1,10 @@
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 
@@ -9,6 +13,9 @@ public class MenuScene extends Scene{
     private static BridgeToSuccess bridgeToSuccess;
 
     private static Group root;
+
+    private static Image menuBgAsImage;
+    private static ImageView menuBGAsImageView;
 
     private static Text titleText;
     private static Button startButton;
@@ -20,7 +27,7 @@ public class MenuScene extends Scene{
 
         this.bridgeToSuccess = bridgeToSuccess;
 
-        this.getStylesheets().add(getClass().getResource("/design.css").toExternalForm());
+        this.getStylesheets().add(getClass().getResource("/Design.css").toExternalForm());
         this.setFill(Color.rgb(31, 191, 82));
 
     }
@@ -28,6 +35,11 @@ public class MenuScene extends Scene{
     private static Group buildScene(){
 
         root = new Group();
+
+        menuBgAsImage = new Image(MenuScene.class.getResourceAsStream("/MenuBG.jpg")); // Image Source: https://dumielauxepices.net/drawn-jungle/drawn-jungle-back-ground
+        menuBGAsImageView = new ImageView(menuBgAsImage);
+        menuBGAsImageView.setX(0);
+        menuBGAsImageView.setY(0);
 
         titleText = new Text("Bridge to Success");
         titleText.getStyleClass().add("titleText");
@@ -41,6 +53,10 @@ public class MenuScene extends Scene{
 
         startButton.setOnAction((event) -> {
 
+            Media buttonClickedSound = new Media(MenuScene.class.getResource("/ButtonClicked.mp3").toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(buttonClickedSound);
+            mediaPlayer.play();
+
             bridgeToSuccess.gameScene = new GameScene(bridgeToSuccess);
             bridgeToSuccess.primaryStage.setScene(bridgeToSuccess.gameScene);
 
@@ -53,11 +69,16 @@ public class MenuScene extends Scene{
 
         instructionButton.setOnAction((event) -> {
 
+            Media buttonClickedSound = new Media(MenuScene.class.getResource("/ButtonClicked.mp3").toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(buttonClickedSound);
+            mediaPlayer.play();
+
             bridgeToSuccess.instructionScene = new InstructionScene(bridgeToSuccess);
             bridgeToSuccess.primaryStage.setScene(bridgeToSuccess.instructionScene);
 
         });
 
+        root.getChildren().add(menuBGAsImageView);
         root.getChildren().add(titleText);
         root.getChildren().add(startButton);
         root.getChildren().add(instructionButton);

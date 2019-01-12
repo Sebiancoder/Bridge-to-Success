@@ -3,10 +3,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 
 public class InstructionScene extends Scene{
 
@@ -25,8 +24,8 @@ public class InstructionScene extends Scene{
 
         this.bridgeToSuccess = bridgeToSuccess;
 
-        this.getStylesheets().add(getClass().getResource("/design.css").toExternalForm());
-        this.setFill(Color.rgb(31, 191, 82));
+        this.getStylesheets().add(getClass().getResource("/Design.css").toExternalForm());
+        this.setFill(Color.rgb(192, 192, 192));
 
     }
 
@@ -34,7 +33,7 @@ public class InstructionScene extends Scene{
 
         root = new Group();
 
-        instructionSceneAsImage = new Image(InstructionScene.class.getResourceAsStream("/instructionScene.png"));
+        instructionSceneAsImage = new Image(InstructionScene.class.getResourceAsStream("/InstructionScene2.png"));
 
         instructionSceneImageViewer = new ImageView(instructionSceneAsImage);
         instructionSceneImageViewer.setX(0);
@@ -46,6 +45,10 @@ public class InstructionScene extends Scene{
         backButton.setLayoutY(680);
 
         backButton.setOnAction((event) -> {
+
+            Media buttonClickedSound = new Media(MenuScene.class.getResource("/ButtonClicked.mp3").toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(buttonClickedSound);
+            mediaPlayer.play();
 
             bridgeToSuccess.primaryStage.setScene(bridgeToSuccess.menuScene);
 

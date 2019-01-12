@@ -461,351 +461,351 @@
               "id": "36",
               "category": "Nomenclature",
               "difficulty": "basic",
-              "question": "?",
+              "question": "Which of the following suffixes is used with Ionic Compounds?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "-ide",
+                "-ode",
+                "-gen"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "-ide"
             },
 
             {
               "id": "37",
               "category": "Nomenclature",
               "difficulty": "basic",
-              "question": "?",
+              "question": "How many molecules of Chlorine are there in Carbon Tetrachloride?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "3",
+                "4",
+                "16"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "4"
             },
 
             {
               "id": "38",
               "category": "Nomenclature",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "What is the name of the following molecule: BCl\u2083",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "Boron Chloride",
+                "Monoboron Trichloride",
+                "Boron Trichloride"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "Boron Trichloride"
             },
 
             {
               "id": "39",
               "category": "Nomenclature",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "What is the chemical formula of Ammonium Iodide?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "AI",
+                "NH\u2084I",
+                "NH\u2084I\u00B2"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "NH\u2084I"
             },
 
             {
               "id": "40",
               "category": "Nomenclature",
               "difficulty": "advanced",
-              "question": "?",
+              "question": "What determines whether the state of matter for an Ionic Compound is Aqueous or Solid?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "The solubility rules",
+                "If the element/compound is near the top of the activity series, it is Aqueous",
+                "The temperature of the element/compound"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "The solubility rules"
             },
 
             {
               "id": "41",
               "category": "Chemical Reactions",
               "difficulty": "basic",
-              "question": "?",
+              "question": "Which type of chemical reaction has one compound as a reactant and multiple products?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "Decomposition",
+                "Synthesis",
+                "Combustion"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "Decomposition"
             },
 
             {
               "id": "42",
               "category": "Chemical Reactions",
               "difficulty": "basic",
-              "question": "?",
+              "question": "For which type of reaction must you consult the activity series to see if it would occur?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "Synthesis",
+                "Single Replacement",
+                "Double Replacement"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "Single Replacement"
             },
 
             {
               "id": "43",
               "category": "Chemical Reactions",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "Which of the following is the correctly balanced form of Ca + H\u00B2O \u2192 Ca(OH)\u00B2 + H\u00B2?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "2Ca + 3H\u00B2O \u2192 Ca(OH)\u00B2 + 2H\u00B2",
+                "Ca + 2H\u00B2O \u2192 Ca(OH)\u00B2 + H\u00B2",
+                "Ca + 4H\u00B2O \u2192 2Ca(OH)\u00B2 + H\u00B2"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "Ca + 2H\u00B2O \u2192 Ca(OH)\u00B2 + H\u00B2"
             },
 
             {
               "id": "44",
               "category": "Chemical Reactions",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "Identify the substance being oxidized in the following equation: CH\u2084 + 2O\u00B2 \u2192 CO\u00B2 + 2H\u00B2O",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "Carbon",
+                "Oxygen",
+                "Hydrogen"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "Carbon"
             },
 
             {
               "id": "45",
               "category": "Chemical Reactions",
               "difficulty": "advanced",
-              "question": "?",
+              "question": "What is the defining characteristic of a redox reaction?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "The transfer of electrons",
+                "The presence of oxygen",
+                "The product side of the equation has less oxygen molecules than the reactants side of the equation"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "The transfer of electrons"
             },
 
             {
               "id": "46",
               "category": "The Mole",
               "difficulty": "basic",
-              "question": "?",
+              "question": "Which of these is Avogadro's Number?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "6.02 \u2715 10\u00B2\u00B2",
+                "6.02 \u2715 10\u00B2\u00B3",
+                "6.03 \u2715 10\u00B2\u00B2"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "6.02 \u2715 10\u00B2\u00B3"
             },
 
             {
               "id": "47",
               "category": "The Mole",
               "difficulty": "basic",
-              "question": "?",
+              "question": "One mole of a gas at STP is equal to how many liters?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "22.4",
+                "24.2",
+                "24.4"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "22.4"
             },
 
             {
               "id": "48",
               "category": "The Mole",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "What is the mass of 1.107 \u2715 10\u00B2\u2074 molecules of Gold?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "362.2 g",
+                "3.621 \u2715 10\u207B\u00B2\u00B3 g",
+                "362.23 g"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "362.2 g"
             },
 
             {
               "id": "49",
               "category": "The Mole",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "What is the molar mass of Potassium Oxide?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "55.0977 g/mol",
+                "94.196 g/mol",
+                "71.0971 g/mol"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "94.196 g/mol"
             },
 
             {
               "id": "50",
               "category": "The Mole",
               "difficulty": "advanced",
-              "question": "?",
+              "question": "Why are moles used in Chemistry?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "They provide an easier way than to represent the amount of a substance than to deal with the number of molecules",
+                "To make it easier to calculate the total charge of an ion",
+                "To determine the state of matter of an element(If the moles of an element exceeds its molar mass, the element is Aqueous)"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "They provide an easier way than to represent the amount of a substance than to deal with the number of molecules"
             },
 
             {
               "id": "51",
               "category": "Stoichiometry",
               "difficulty": "basic",
-              "question": "?",
+              "question": "What is a limiting Reagent?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "The reactant that is depleted first and causes the reaction to stop",
+                "A type of catalyst added to make a chemical reaction stop after a certain amount of the reactants have been used up",
+                "A chemical that prevents a reaction from occurring"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "The reactant that is depleted first and causes the reaction to stop"
             },
 
             {
               "id": "52",
               "category": "Stoichiometry",
               "difficulty": "basic",
-              "question": "?",
+              "question": "In order to have correct mole ratios, what has to be done to a chemical equation?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "The molar mass of each product and reactant has to be calculated",
+                "states of matter have to be added",
+                "it has to be balanced"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "it has to be balanced"
             },
 
             {
               "id": "53",
               "category": "Stoichiometry",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "What is the mole ratio of Rubidium Nitrate to Oxygen in RbNO\u2083 \u2192 RbNO\u2082 + O\u2082?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "1 mol RbNO\u2083 / 1 mol O\u2082",
+                "1 mol RbNO\u2082 / 1 mol O\u2082",
+                "2 mol RbNO\u2083 / 1 mol O\u2082"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "2 mol RbNO\u2083 / 1 mol O\u2082"
             },
 
             {
               "id": "54",
               "category": "Stoichiometry",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "How many grams of Silver Phosphate are produced if 3.20 moles of Silver Nitrate react with 2.70 moles of Potassium Phosphate?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "1130 g",
+                "1340 g",
+                "2260 g"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "1130 g"
             },
 
             {
               "id": "55",
               "category": "Stoichiometry",
               "difficulty": "advanced",
-              "question": "?",
+              "question": "Which of these is NOT a valid reason for why 100% yield is impossible?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "Some of the reactant is used in an unwanted, competing reaction",
+                "Some of the reactant or product evaporates",
+                "Measurements are inaccurate"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "Measurements are inaccurate"
             },
 
             {
               "id": "56",
               "category": "Properties of Matter",
               "difficulty": "basic",
-              "question": "?",
+              "question": "What is the term for when a solid turns straight into a gas?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "condensation",
+                "evaporation",
+                "sublimation"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "sublimation"
             },
 
             {
               "id": "57",
               "category": "Properties of Matter",
               "difficulty": "basic",
-              "question": "?",
+              "question": "Is burning a piece of paper a physical of chemical change?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "physical",
+                "chemical",
+                "both"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "chemical"
             },
 
             {
               "id": "58",
               "category": "Properties of Matter",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "The process of separating a mixture based based on the substances' varying boiling points is called:",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "Distillation",
+                "Filtration",
+                "Chromatography"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "Distillation"
             },
 
             {
               "id": "59",
               "category": "Properties of Matter",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "What is the difference between a heterogeneous mixture and a homogeneous mixture?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "A heterogeneous mixture has an uneven distribution of its substances, while a homogeneous mixture has an even distribution",
+                "A homogeneous mixture has an uneven distribution of its substances, while a heterogeneous mixture has an even distribution",
+                "The terms can be used interchangeably"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "A heterogeneous mixture has an uneven distribution of its substances, while a homogeneous mixture has an even distribution"
             },
 
             {
               "id": "60",
               "category": "Properties of Matter",
               "difficulty": "advanced",
-              "question": "?",
+              "question": "How does Chromatography work?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "The mixture is dissolved in either a liouid or gas, and then it moves across a fixed substrate. Some substances move faster than others, so the mixture is separated.",
+                "The mixture is boiled. Since each substance has a different boiling point, the substance is separated",
+                "A crystal precipitate forms."
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "The mixture is dissolved in either a liouid or gas, and then it moves across a fixed substrate. Some substances move faster than others, so the mixture is separated."
             },
 
             {
               "id": "61",
               "category": "Solution Concentration",
               "difficulty": "basic",
-              "question": "?",
+              "question": "What is a solvent?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "A substance being dissolved",
+                "A substance that another substance is dissolved in",
+                "A mixture that contains a liquid, and another substance dissolved in that liquid"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "The substance that another substance is dissolved in"
             },
 
             {
               "id": "62",
               "category": "Solution Concentration",
               "difficulty": "basic",
-              "question": "?",
+              "question": "What is a solute?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "A substance being dissolved",
+                "A substance that another substance is dissolved in",
+                "A mixture that contains a liquid, and another substance dissolved in that liquid"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "A substance being dissolved"
             },
 
             {
