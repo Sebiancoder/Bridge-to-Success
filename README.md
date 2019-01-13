@@ -6,3 +6,5 @@ There are two players, red and blue. They have to race against each other to mak
 If a question is answered incorrectly, the rock that the player was trying to move to is destroyed and cannot be used by either player.
 
 A complete list of the questions in this game can be found in JSON format in the file entitled "questions.json", which is located in the resources folder.
+
+The JAR file can be found in the folder out/artifacts/Bridge_to_Success_jar.
