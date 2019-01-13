@@ -812,104 +812,104 @@
               "id": "63",
               "category": "Solution Concentration",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "What is the molarity of 35.00 grams of NaCl dissolved in 10 liters of water?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "0.0599 M",
+                "3.5 M",
+                "0.5444 M"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "0.0599 M"
             },
 
             {
               "id": "64",
               "category": "Solution Concentration",
               "difficulty": "intermediate",
-              "question": "?",
+              "question": "1 liter of a 0.05 M Lithium Chloride Solution is diluted by adding 1 liter of solvent. What is the new molarity of the solution?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "0.1 M",
+                "0.025 M",
+                "0.05 M"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "0.025 M"
             },
 
             {
               "id": "65",
               "category": "Solution Concentration",
               "difficulty": "advanced",
-              "question": "?",
+              "question": "Why do some substances dissolve in water?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "Most dissolved particles are polar, and their polarity keeps them from getting to close or too far from other particles. This keeps them suspended in water",
+                "They are pulled apart by the water molecules",
+                "They have a lower density than water, so they can't settle at the bottom"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "They are pulled apart by the water molecules"
             },
 
             {
               "id": "66",
               "category": "Gas Laws",
               "difficulty": "basic",
-              "question": "?",
+              "question": "Which gas law relates Temperature and Volume?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "Charles's Law",
+                "Gay - Lussac's Law",
+                "Boyle's Law"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "Charles's Law"
             },
 
             {
               "id": "67",
               "category": "Gas Laws",
               "difficulty": "basic",
-              "question": "?",
+              "question": "What must be kept constant in order for Boyle's Law to work?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "Pressure",
+                "Volume",
+                "Temperature"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "Temperature"
             },
 
             {
               "id": "68",
               "category": "Gas Laws",
-              "difficulty": "basic",
-              "question": "?",
+              "difficulty": "intermediate",
+              "question": "A gas at a constant temperature has a pressure of 1 atm and a volume of 3 liters. If the pressure is decreased to 0.25 atm, what is the new volume?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "12 liters",
+                "0.75 liters",
+                "4 liters"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "12 liters"
             },
 
             {
               "id": "69",
               "category": "Gas Laws",
-              "difficulty": "basic",
-              "question": "?",
+              "difficulty": "intermediate",
+              "question": "A gas has a pressure of 5 atm, a volume of 10 liters, and a temperature of 100 K. If the pressure is increased to 6 atm and the temperature decreased to 50 K, what is the new volume?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "4 Liters",
+                "20 Liters",
+                "7 Liters"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "4 Liters"
             },
 
             {
               "id": "70",
               "category": "Gas Laws",
-              "difficulty": "basic",
-              "question": "?",
+              "difficulty": "advanced",
+              "question": "Why is the Ideal Gas Law not entirely accurate?",
               "possibleAnswers": [
-                "?",
-                "?",
-                "?"
+                "It is accurate",
+                "It assumes that gas particles have no mass",
+                "It assumes that gas particles have no volume"
               ],
-              "correctAnswer": "?"
+              "correctAnswer": "It assumes that gas particles have no volume"
             }
           ]
 }

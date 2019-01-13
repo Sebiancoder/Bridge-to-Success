@@ -14,6 +14,8 @@ public class BridgeToSuccess extends Application{
 
     public static void main(String args[]){
 
+        System.out.println("6.02 \u2715 10\u00B2\u00B2");
+
         launch(args);
 
     }

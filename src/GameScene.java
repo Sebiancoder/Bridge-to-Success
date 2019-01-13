@@ -2,10 +2,13 @@ import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
-import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 
 public class GameScene extends Scene{
@@ -21,7 +24,8 @@ public class GameScene extends Scene{
     private static Text[] redAnswers;
     private static Line questionDivider;
 
-    private static Rectangle lava;
+    private static Image lavaAsImage;
+    private static ImageView lavaAsImageView;
     private static Tile[][] boardArray;
 
     private static Boolean blueQuestionAsked;
@@ -45,7 +49,7 @@ public class GameScene extends Scene{
 
         this.bridgeToSuccess = bridgeToSuccess;
 
-        this.getStylesheets().add(getClass().getResource("/design.css").toExternalForm());
+        this.getStylesheets().add(getClass().getResource("/Design.css").toExternalForm());
         this.setFill((Color.rgb(56, 191, 82)));
 
         questionManager = new QuestionManager();
@@ -60,6 +64,7 @@ public class GameScene extends Scene{
         bluePositionCoords[1] = 0;
         bluePosition = boardArray[bluePositionCoords[0]][bluePositionCoords[1]];
         bluePosition.setId("tileCapturedByBlue");
+        bluePosition.setState("CAPTURED");
 
         bluePendingCoords = new Integer[2];
 
@@ -68,6 +73,7 @@ public class GameScene extends Scene{
         redPositionCoords[1] = 9;
         redPosition = boardArray[redPositionCoords[0]][redPositionCoords[1]];
         redPosition.setId("tileCapturedByRed");
+        redPosition.setState("CAPTURED");
 
         redPendingCoords = new Integer[2];
 
@@ -167,8 +173,10 @@ public class GameScene extends Scene{
 
         questionDivider = new Line(400, 25, 400, 225);
 
-        lava = new Rectangle(0, 240, 800, 525);
-        lava.getStyleClass().add("lava");
+        lavaAsImage = new Image(GameScene.class.getResourceAsStream("Lava.png"));
+        lavaAsImageView = new ImageView(lavaAsImage);
+        lavaAsImageView.setX(0);
+        lavaAsImageView.setY(240);
 
         boardArray = new Tile[10][10];
         populateBoard();
@@ -176,7 +184,7 @@ public class GameScene extends Scene{
         root.getChildren().add(blueQuestionText);
         root.getChildren().add(redQuestionText);
         root.getChildren().add(questionDivider);
-        root.getChildren().add(lava);
+        root.getChildren().add(lavaAsImageView);
 
         for (int i = 0; i < boardArray.length; i++){
             for (int j = 0; j < boardArray[i].length; j++){
@@ -240,6 +248,11 @@ public class GameScene extends Scene{
 
                 blueQuestionAsked = false;
 
+                playMoveSound();
+
+                blueQuestionText.setText("");
+                for (int i = 0; i < blueAnswers.length; i++){blueAnswers[i].setText("");}
+
                 checkForVictory();
 
             } else {
@@ -254,6 +267,11 @@ public class GameScene extends Scene{
                 bluePendingCoords[1] = null;
 
                 blueQuestionAsked = false;
+
+                playTileDestroyedSound();
+
+                blueQuestionText.setText("");
+                for (int i = 0; i < blueAnswers.length; i++){blueAnswers[i].setText("");}
 
                 System.out.println("Answer false");
 
@@ -285,6 +303,11 @@ public class GameScene extends Scene{
 
                 redQuestionAsked = false;
 
+                playMoveSound();
+
+                redQuestionText.setText("");
+                for (int i = 0; i < redAnswers.length; i++){redAnswers[i].setText("");}
+
                 checkForVictory();
 
             } else {
@@ -299,6 +322,11 @@ public class GameScene extends Scene{
                 redPendingCoords[1] = null;
 
                 redQuestionAsked = false;
+
+                playTileDestroyedSound();
+
+                redQuestionText.setText("");
+                for (int i = 0; i < redAnswers.length; i++){redAnswers[i].setText("");}
 
                 System.out.println("Answer false");
 
@@ -547,18 +575,44 @@ public class GameScene extends Scene{
 
     }
 
+    private static void playMoveSound(){
+
+        Media moveSound = new Media(GameScene.class.getResource("/MoveSound.mp3").toString());
+        MediaPlayer mediaPlayer = new MediaPlayer(moveSound);
+        mediaPlayer.play();
+
+    }
+
+    private static void playTileDestroyedSound(){
+
+        Media tileDestroyedSound = new Media(GameScene.class.getResource("/TileDestroyedSound.mp3").toString());
+        MediaPlayer mediaPlayer = new MediaPlayer(tileDestroyedSound);
+        mediaPlayer.play();
+
+    }
+
     private static void checkForVictory(){
 
         if(redPositionCoords[0] == 0 && redPositionCoords[1] == 0){
 
+            Media applauseSound = new Media(MenuScene.class.getResource("/Applause.mp3").toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(applauseSound);
+            mediaPlayer.play();
+
             Alert victoryAlert = new Alert(Alert.AlertType.INFORMATION, "The Red Player has Won!");
+            victoryAlert.setHeaderText("Victory!");
             victoryAlert.showAndWait();
 
             bridgeToSuccess.primaryStage.setScene(bridgeToSuccess.menuScene);
 
         } else if (bluePositionCoords[0] == 0 && bluePositionCoords[1] == 9){
 
+            Media applauseSound = new Media(MenuScene.class.getResource("/Applause.mp3").toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(applauseSound);
+            mediaPlayer.play();
+
             Alert victoryAlert = new Alert(Alert.AlertType.INFORMATION, "The Blue Player has Won!");
+            victoryAlert.setHeaderText("Victory!");
             victoryAlert.showAndWait();
 
             bridgeToSuccess.primaryStage.setScene(bridgeToSuccess.menuScene);
